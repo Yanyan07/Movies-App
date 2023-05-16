@@ -1,9 +1,9 @@
 # Movies App 
 
 ## Overview
-The Movie Project is a web application that allows users to search for movies by genres or keywords and provides CRUD functionality. The application is built using the Spring Boot framework for the backend and React for the frontend.
+* The Movie Project is a web application that allows users to search for movies by genres or keywords and provides CRUD functionality. The application is built using the Spring Boot framework for the backend and React for the frontend.
 
-The Movie Project aims to provide an intuitive and convenient way for users to search for movies, explore the details of movies, and add them to their cart. The use of Spring Boot and React enables efficient development and a seamless user experience. With role-based access control, "user" users can explore and add movies to their cart, while the "admin" users can manage movie data effectively.
+* The Movie Project aims to provide an intuitive and convenient way for users to search for movies, explore the details of movies, and add them to their cart. The use of Spring Boot and React enables efficient development and a seamless user experience. With role-based access control, "user" users can explore and add movies to their cart, while the "admin" users can manage movie data effectively.
 
 ## How to Use
 1. Download the code from the GitHub repository: https://github.com/Yanyan07/Movies-App
