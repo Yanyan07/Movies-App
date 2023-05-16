@@ -23,11 +23,11 @@ The Movie Project aims to provide an intuitive and convenient way for users to s
    * Select "Keywords", type in the keyword you want, to show movies containing the keywords in their title.
    * Click anywhere on a movie picture to view the details of the movie.
 
-6. regular user(**username:eric password:123**)
+6. Regular User( **username:eric password:123** )
    * After logging in, the "Add to Cart" button will be displayed for each movie, allowing you to add the movie to your cart.
    * The number of movies in your cart will appear in the cart sign.
 
-7. Admin User(**username:oscar password:456**)
+7. Admin User( **username:oscar password:456** )
    * If you log in as an "admin" user, the "New Movie", "Update", and "Delete" buttons will be available too, allowing you to perform CRUD operations on movies.
 
 8. To return to the home page, click the logo of the movie app.
