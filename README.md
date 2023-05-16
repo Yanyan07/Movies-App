@@ -49,4 +49,4 @@
 * GitHub
 
 ## Lessons Learned
-In this project, I learned how to update the state hook in nested axios request and display images in different ways in React. And also learned how to use pubsub-js to communicate between any components.
+* In this project, I learned how to update the state hook in nested axios request and display images in different ways in React. And also learned how to use pubsub-js to communicate between any components.
