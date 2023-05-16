@@ -1,0 +1,59 @@
+.movie-genres {
+  margin: 0 auto;
+  width: 900px;
+  background-color: aliceblue;
+}
+.movie-top, .list-genres {
+  padding: 30px 0 10px;
+  background-color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  color: #666666;
+}
+.list-genres {
+  font-size: 35px;
+}
+.movie-top span{
+  float: left;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+}
+.movie-top span:nth-child(2){
+  float: right;
+}
+.movie-top span:nth-child(1){
+  margin-left: 140px;
+}
+.movie-top span:nth-child(2){
+  margin-right: 45px;
+}
+.movie-item {
+  position: relative;
+  height: 120px;
+  margin-top: 5px;
+}
+.movie-item:nth-child(even) {
+  background-color: white;
+}
+.movie-item .movie-info {
+  float: left;
+}
+.movie-item .movie-info {
+  height: 120px;
+  line-height: 120px;
+}
+.movie-item .title {
+  padding-left: 20px;
+  color: darkgreen;
+  font-weight: 500;
+}
+.movie-item .year {
+  padding-left: 10px;
+}
+.movie-item .rate {
+  float: right;
+  padding-right: 50px;
+  font-weight: 700;
+}

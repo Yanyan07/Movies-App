@@ -1,0 +1,26 @@
+
+.footer {
+  height: 200px;
+  background-color: #262626;
+}
+.footer img{
+  width: 50px;
+}
+.logo-span {
+  float: left;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  color: green;
+}
+.copy-right{
+  padding-top: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ccc;
+}
+.copy-right p {
+  width: 90%;
+  margin-top: 15px;
+  text-align: center;
+}

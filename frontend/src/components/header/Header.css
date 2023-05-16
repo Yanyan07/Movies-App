@@ -1,0 +1,94 @@
+
+.header {
+  height: 80px;
+  background-color: #262626;
+  color: white;
+  line-height: 80px;
+}
+
+.logo-container {
+  float: left;
+  height: 100%;
+  margin-left: 5%;
+}
+.logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 14px 1px 0 0;
+  border-radius: 10%;
+}
+.header .logo-span {
+  float: left;
+  margin-top: -3px;
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: green;
+}
+
+/* input search */
+.header select, .header input, .header button {
+  height: 40px;
+  border: solid gray 0.5px;
+  font-size: 16px;
+}
+.header select {
+  padding-left: 2px;
+  transform: translate(0,1%);
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+}
+.header select:hover {
+  background-color: #e6e6e6;
+}
+.header .logo-search {
+  position: relative;
+  width: 45px;
+  top: -5px;
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(250, 250, 250);
+}
+.header .search {
+  padding-left: 10px;
+  width: 35%;
+}
+.header .search-img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  height: 35px;
+} 
+
+/* login */
+.sign-container {
+  float: right;
+  font-weight: 700;
+}
+.cart {
+  margin-right: 50px;
+}
+.cart-img {
+  position: absolute;
+  top: 24px;
+  right: 83px;
+  height: 30px;
+}
+.count {
+  position: absolute;
+  top: -14px;
+  right: 95px;
+  color: #00cc00;
+  font-weight: 700;
+  font-size: 20px;
+  z-index: 2;
+}
+.sign {
+  margin-right: 80px;
+}
+.logout {
+  margin-right: 80px;
+}
+
+
+

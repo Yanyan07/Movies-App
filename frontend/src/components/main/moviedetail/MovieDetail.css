@@ -1,0 +1,73 @@
+
+.movie-detail {
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+  padding: 50px 2px;
+  text-align: left;
+}
+.movie-detail .title {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.movie-detail .year, .movie-detail .minutes{
+  float: left;
+  width: 60px;
+  color: gray;
+  font-size: 18px;
+}
+.movie-detail .rate {
+  float: right;
+  width: 100px;
+  color: gray;
+  font-size: 18px;
+}
+.movie-detail .rate div span{
+  font-size: 30px;
+  color: black;
+}
+.movie-detail .img img {
+  width: 380px;
+  height: 300px;
+  margin-top: 20px;
+}
+.movie-detail .detail-genres button {
+  padding: 5px 7px;
+  margin: 10px 5px;
+  border: 1px solid green;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 15px;
+}
+.movie-detail .desc {
+  margin-top: 20px;
+}
+/* .movie-detail .pin{ */
+.pin{
+  padding: 7px;
+  margin: 50px 0;
+  margin-right: 5px;
+  border: 1px solid green;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #009900;
+  font-size: 18px;
+  color: white;
+}
+.pin:hover{
+  background-color: #00b300;
+}
+.update {
+  border: 1px solid #b35900;
+  background-color: #e67300;
+}
+.update:hover {
+  background-color: #ff5c33;
+}
+.delete {
+  border: 1px solid #990000;
+  background-color: #cc0000;
+}
+.delete:hover {
+  background-color: #ff0000;
+}

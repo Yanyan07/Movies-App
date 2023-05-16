@@ -1,0 +1,63 @@
+
+.movie-container {
+  margin: 0 auto;
+  width: 1184px;
+  background-color: aliceblue;
+}
+.genres {
+  position: relative;
+  height: 318px;
+  overflow: hidden;
+}
+.genres-name {
+  text-align: left;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: green;
+}
+.genres ul {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 3360px;
+}
+.movie-list {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 225px;
+    height: 270px;
+    background-color: white;
+}
+.arrow {
+  position: absolute;
+  top: 140px;
+  opacity: 0.8;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.arrow img {
+  position: absolute;
+  top: -17px;
+  width: 90px;
+}
+.pre-arrow img {
+  left: -8px;
+}
+.post-arrow {
+  right: 0;
+}
+.post-arrow img {
+  right: -8px;
+}
+.movie-list div {
+  font-size: 14px;
+}
+.movie-list img {
+  width: 225px;
+}
+
+
