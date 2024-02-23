@@ -39,17 +39,16 @@ export default function SignIn(){
     <div className="sign-in">
       <h1>Sign In</h1>
       {
-        isErrorUser ? 
+        isErrorUser && 
         <div>
           <button>Sorry, we can't find an account with this username and password. Please try again or create a new account.</button>
-        </div> :
-        null
+        </div> 
       }
       <div>
         <input placeholder="Username" onChange={(e)=>getInfo(e,"username")} />
       </div>
       <div>
-        <input placeholder="Password" onChange={(e)=>getInfo(e,"password")} />
+        <input type="password" placeholder="Password" onChange={(e)=>getInfo(e,"password")} />
       </div>
       <button className="pin" onClick={handleClick}>Sign In</button>
       <div className="sign-register">New to Clover App? <span onClick={handleSignUp}>Sign up now.</span></div>

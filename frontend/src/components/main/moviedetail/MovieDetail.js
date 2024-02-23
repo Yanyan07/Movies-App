@@ -24,7 +24,6 @@ export default function MovieDetail(){
     }else{
       axios.post("http://localhost:8088/user/movies",{username: username+" "+movie.id}).then((response)=>{
         PubSub.publish("movie-add", response.data);
-        // console.log("add movie to user: ", response.data); //true
       })
     }
   }
@@ -44,7 +43,7 @@ export default function MovieDetail(){
   }
 
   return (
-    movie===undefined ? null :
+    movie &&
     <div className="movie-detail">
       <h2 className="title">{movie.name}</h2>
       <div className="clearfix">
@@ -79,18 +78,16 @@ export default function MovieDetail(){
       <div className="desc">{movie.description}</div>
       <button className="pin" onClick={handleAdd}>Add to Cart</button>
       {
-        localStorage.getItem("role")==="admin" ? 
+        localStorage.getItem("role")==="admin" && 
         <span>
           <button className="pin" onClick={handleNew}>New Movie</button>
           <button className="pin update" onClick={handleUpdate}>Update</button>
           <button className="pin delete" onClick={handleDelete}>Delete</button>
           {
-            isDelete ? 
-            <button className="pin delete" onClick={deleteProcess}>Are you sure to delete?</button> : 
-            null
+            isDelete && 
+            <button className="pin delete" onClick={deleteProcess}>Are you sure to delete?</button> 
           }
-        </span> :
-        null
+        </span> 
       }
     </div>
   )

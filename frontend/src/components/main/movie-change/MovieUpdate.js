@@ -62,8 +62,7 @@ export default function MovieUpdate() {
   }
 
   return (
-    movie===null ? 
-    null :
+    movie &&
     <div className="sign-in">
       <h1>Update Movie</h1>
       <div>

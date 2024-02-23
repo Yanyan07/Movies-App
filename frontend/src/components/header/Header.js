@@ -46,6 +46,11 @@ export default function Header(){
     navigate("*");
     setInputValue("");
   }
+  const handleKeyDown = (e)=>{
+    if(e.keyCode === 13) {
+      handleClick();
+    }
+  }
   const handleSignIn = () => {
     navigate("/signin");
   }
@@ -68,19 +73,19 @@ export default function Header(){
         <option value="genres">genres</option>
         <option value="keywords">keywords</option>
       </select>
-      <input className="search" placeholder="Search Movies" value={inputValue} onChange={handleInput} />
+      <input className="search" placeholder="Search Movies" value={inputValue} onChange={handleInput} onKeyDown={handleKeyDown} />
       <button className="logo-search" onClick={handleClick}>
         <img className="search-img" src={process.env.PUBLIC_URL+"/images/search.png"} alt="search"/>
       </button>
 
       <span className="cart sign-container" >Cart</span>
       {
-        localStorage.getItem("username")===null ? null :
+        localStorage.getItem("username") &&
         <span className="count" onClick={showUserMovies}>{userMovies.length}</span>
       }
       <img className="cart-img sign-container" src={process.env.PUBLIC_URL+"/images/cart.png"} alt="cart" onClick={showUserMovies} />
       {
-        localStorage.getItem("username")===null ?
+        !localStorage.getItem("username") ?
           <span className="sign sign-container" onClick={handleSignIn}>Sign In</span> :
         <span>
           <span className="logout sign-container" onClick={handleLogout}>💚Logout</span> 
